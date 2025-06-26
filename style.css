@@ -132,6 +132,43 @@ header p {
     align-items: center;
 }
 
+#cheapest-display {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    text-align: center;
+    border: 2px solid var(--primary-color);
+}
+
+#cheapest-display h2 {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 1.8rem;
+}
+
+#cheapest-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    #cheapest-display {
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+
+    #cheapest-display h2 {
+        font-size: 1.5rem;
+    }
+
+    #cheapest-value {
+        font-size: 1.8rem;
+    }
+}
+
 /* --- Responsive Styles for Mobile --- */
 @media (max-width: 768px) {
     body {
